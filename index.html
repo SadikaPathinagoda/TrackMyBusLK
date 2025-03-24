@@ -9,6 +9,15 @@
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCam-feCqLUSWOEmPJeTiImTiVsuYPeZ3Q&callback=initMap"></script>
 </head>
 <body>
+  <!-- Add this to your HTML -->
+<div id="chatbot"></div>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="TrackMyBusBot"
+  agent-id="YOUR_AGENT_ID"
+  language-code="en"
+></df-messenger>
   <header>
     <h1>TrackMyBus LK</h1>
     <p>Your Real-Time Bus Tracking System</p>
